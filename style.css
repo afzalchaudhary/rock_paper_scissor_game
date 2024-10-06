@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    background-color: #1b0a4f;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+}
+.choices{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 2rem;
+}
+.choice:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    background-color: #07021698;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 3rem;
+
+}
+.score{
+    font-size: 3rem;
+
+}
+
+.msg-container{
+    margin-top: 5rem;
+}
+
+.msg{
+   background-color: #1b0a4f;
+   color: white;
+   font-size: 2rem;
+   display: inline;
+   border-radius: 1rem;
+   padding: 1rem;
+}
+
+
+.Userpoint,.Comppoint{
+    font-size: 5rem;
+}
